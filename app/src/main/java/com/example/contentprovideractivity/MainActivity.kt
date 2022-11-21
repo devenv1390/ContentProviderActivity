@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
     }
     @SuppressLint("SimpleDateFormat")
     fun transToString(time:Int):String {
-        return SimpleDateFormat("yyy-MM-dd- hh:ss").format(time)
+        return SimpleDateFormat("yyy-MM-dd- hh:mm").format(time)
     }
     @SuppressLint("Range")
     private fun readCallLog() {
